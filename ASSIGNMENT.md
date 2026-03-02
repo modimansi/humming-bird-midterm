@@ -11,7 +11,6 @@ vacation. Support tickets are coming in. You have Claude Code, a terminal, and `
 
 | What              | How to access                                                             |
 |------------       |---                                                                        |
-| Live API          | `http://<your-alb-dns>` (provided by instructor)                          |
 | Source code       | Which you cloned in your current directory                                |
 | CloudWatch logs   | `aws logs tail /ecs/hummingbird/production/api --follow`                  |
 | Claude Code       | `export ANTHROPIC_MODEL='us.anthropic.claude-opus-4-6-v1'` then `claude`  |
